@@ -153,107 +153,31 @@ g++ -o sistema main.cpp ArbolBST.cpp -std=c++17
 
 ---
 
-## Ejemplo de Ejecucion
+## Capturas de Ejecucion
 
-### Insertar dos estudiantes y consultar el arbol
+![Captura 1](capturas/insertar_estudiante..png)
 
-```
-  Bienvenido al Sistema Academico UTA
-  Gestion de Estudiantes con Arbol Binario de Busqueda
+![Captura 2](capturas/buscar_estudiante.png)
 
-╔══════════════════════════════════════════════╗
-║   SISTEMA ACADEMICO UTA - ARBOL BST C++      ║
-║      Universidad Tecnica de Ambato            ║
-╠══════════════════════════════════════════════╣
-║  1.  Insertar estudiante                     ║
-   ...
-╚══════════════════════════════════════════════╝
-  Seleccione una opcion: 1
+![Captura 3](<capturas/Captura de pantalla 2026-05-15 081829.png>)
 
-── Insertar Estudiante ──
-  Cedula (10 digitos): 1804567890
-  Apellidos: Garcia Lopez
-  Nombres  : Juan Carlos
-  Nota final (0.0 - 10.0): 9.5
-  Carrera  : Sistemas
-  Nivel    : Segundo
+![Captura 4](<capturas/Captura de pantalla 2026-05-15 081846.png>)
 
- Estudiante con cedula 1804567890 insertado correctamente.
+![Captura 5](<capturas/Captura de pantalla 2026-05-15 081921.png>)
 
-  Seleccione una opcion: 1
+![Captura 6](<capturas/Captura de pantalla 2026-05-15 081939.png>)
 
-── Insertar Estudiante ──
-  Cedula (10 digitos): 0502345678
-  Apellidos: Mendoza Torres
-  Nombres  : Ana Maria
-  Nota final (0.0 - 10.0): 5.0
-  Carrera  : Civil
-  Nivel    : Tercero
+![Captura 7](<capturas/Captura de pantalla 2026-05-15 081957.png>)
 
-Estudiante con cedula 0502345678 insertado correctamente.
-```
+![Captura 8](<capturas/Captura de pantalla 2026-05-15 082009.png>)
 
-### Recorrido Inorden (cedulas de menor a mayor)
+![Captura 9](<capturas/Captura de pantalla 2026-05-15 082028.png>)
 
-```
-  Seleccione una opcion: 4
+![Captura 10](<capturas/Captura de pantalla 2026-05-15 082053.png>)
 
-══ Recorrido INORDEN (cedulas ascendente) ══
-┌─────────────────────────────────────────┐
-│ Cedula   : 0502345678                   │
-│ Apellidos: Mendoza Torres               │
-│ Nombres  : Ana Maria                    │
-│ Nota     : 5.00                         │
-│ Carrera  : Civil                        │
-│ Nivel    : Tercero                      │
-│ Estado   : REPROBADO                    │
-└─────────────────────────────────────────┘
-┌─────────────────────────────────────────┐
-│ Cedula   : 1804567890                   │
-│ Apellidos: Garcia Lopez                 │
-│ Nombres  : Juan Carlos                  │
-│ Nota     : 9.50                         │
-│ Carrera  : Sistemas                     │
-│ Nivel    : Segundo                      │
-│ Estado   : APROBADO                     │
-└─────────────────────────────────────────┘
-```
+![Captura 11](<capturas/Captura de pantalla 2026-05-15 082109.png>)
 
-### Contar estudiantes y calcular altura
-
-```
-  Seleccione una opcion: 8
-── Total de estudiantes en el arbol: 2 ──
-
-  Seleccione una opcion: 9
-── Altura del arbol: 1 ──
-```
-
-### Estudiantes aprobados y reprobados
-
-```
-  Seleccione una opcion: 12
-
-══ Estudiantes APROBADOS (nota >= 7.0) ══
-┌─────────────────────────────────────────┐
-│ Cedula   : 1804567890                   │
-│ Nombres  : Juan Carlos                  │
-│ Nota     : 9.50                         │
-│ Estado   : APROBADO                     │
-└─────────────────────────────────────────┘
-Total aprobados: 1
-
-  Seleccione una opcion: 13
-
-══ Estudiantes REPROBADOS (nota < 7.0) ══
-┌─────────────────────────────────────────┐
-│ Cedula   : 0502345678                   │
-│ Nombres  : Ana Maria                    │
-│ Nota     : 5.00                         │
-│ Estado   : REPROBADO                    │
-└─────────────────────────────────────────┘
-Total reprobados: 1
-```
+![Captura 12](<capturas/Captura de pantalla 2026-05-15 082126.png>)
 
 ---
 
