@@ -153,6 +153,110 @@ g++ -o sistema main.cpp ArbolBST.cpp -std=c++17
 
 ---
 
+## Ejemplo de Ejecucion
+
+### Insertar dos estudiantes y consultar el arbol
+
+```
+  Bienvenido al Sistema Academico UTA
+  Gestion de Estudiantes con Arbol Binario de Busqueda
+
+╔══════════════════════════════════════════════╗
+║   SISTEMA ACADEMICO UTA - ARBOL BST C++      ║
+║      Universidad Tecnica de Ambato            ║
+╠══════════════════════════════════════════════╣
+║  1.  Insertar estudiante                     ║
+   ...
+╚══════════════════════════════════════════════╝
+  Seleccione una opcion: 1
+
+── Insertar Estudiante ──
+  Cedula (10 digitos): 1804567890
+  Apellidos: Garcia Lopez
+  Nombres  : Juan Carlos
+  Nota final (0.0 - 10.0): 9.5
+  Carrera  : Sistemas
+  Nivel    : Segundo
+
+ Estudiante con cedula 1804567890 insertado correctamente.
+
+  Seleccione una opcion: 1
+
+── Insertar Estudiante ──
+  Cedula (10 digitos): 0502345678
+  Apellidos: Mendoza Torres
+  Nombres  : Ana Maria
+  Nota final (0.0 - 10.0): 5.0
+  Carrera  : Civil
+  Nivel    : Tercero
+
+Estudiante con cedula 0502345678 insertado correctamente.
+```
+
+### Recorrido Inorden (cedulas de menor a mayor)
+
+```
+  Seleccione una opcion: 4
+
+══ Recorrido INORDEN (cedulas ascendente) ══
+┌─────────────────────────────────────────┐
+│ Cedula   : 0502345678                   │
+│ Apellidos: Mendoza Torres               │
+│ Nombres  : Ana Maria                    │
+│ Nota     : 5.00                         │
+│ Carrera  : Civil                        │
+│ Nivel    : Tercero                      │
+│ Estado   : REPROBADO                    │
+└─────────────────────────────────────────┘
+┌─────────────────────────────────────────┐
+│ Cedula   : 1804567890                   │
+│ Apellidos: Garcia Lopez                 │
+│ Nombres  : Juan Carlos                  │
+│ Nota     : 9.50                         │
+│ Carrera  : Sistemas                     │
+│ Nivel    : Segundo                      │
+│ Estado   : APROBADO                     │
+└─────────────────────────────────────────┘
+```
+
+### Contar estudiantes y calcular altura
+
+```
+  Seleccione una opcion: 8
+── Total de estudiantes en el arbol: 2 ──
+
+  Seleccione una opcion: 9
+── Altura del arbol: 1 ──
+```
+
+### Estudiantes aprobados y reprobados
+
+```
+  Seleccione una opcion: 12
+
+══ Estudiantes APROBADOS (nota >= 7.0) ══
+┌─────────────────────────────────────────┐
+│ Cedula   : 1804567890                   │
+│ Nombres  : Juan Carlos                  │
+│ Nota     : 9.50                         │
+│ Estado   : APROBADO                     │
+└─────────────────────────────────────────┘
+Total aprobados: 1
+
+  Seleccione una opcion: 13
+
+══ Estudiantes REPROBADOS (nota < 7.0) ══
+┌─────────────────────────────────────────┐
+│ Cedula   : 0502345678                   │
+│ Nombres  : Ana Maria                    │
+│ Nota     : 5.00                         │
+│ Estado   : REPROBADO                    │
+└─────────────────────────────────────────┘
+Total reprobados: 1
+```
+
+---
+
 ## Autor
 
 Desarrollado por: Jonathan Valle  
