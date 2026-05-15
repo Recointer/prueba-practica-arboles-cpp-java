@@ -1,0 +1,21 @@
+# Ejecutables compilados
+*.exe
+*.out
+*.o
+
+# Binarios Linux/Mac
+cpp/sistema
+
+# Carpetas de compilacion
+build/
+bin/
+
+# Archivos de IDEs
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Archivos temporales Windows
+Thumbs.db
+Desktop.ini
